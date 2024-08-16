@@ -8,7 +8,7 @@ words=("apple" "bread" "climb" "drive" "earth" "flame" "grape" "hover" "input" "
 
 random=$(($RANDOM % ${#words[@]}))
 selected_word=${words[$random]}
-echo "Selected word is: $selected_word"
+#echo "Selected word is: $selected_word"
 echo "This is hangman. Please take a guess at what the 5-letter word could be."
 
 # Initialize associative array
